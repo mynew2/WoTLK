@@ -1237,7 +1237,7 @@ class ObjectMgr
 /* reforge mod */ 
     public:  //private
 /* reforge mod */
-	    // first free id for selected id type
+	// first free id for selected id type
         uint32 _auctionId;
         uint64 _equipmentSetGuid;
         uint32 _itemTextId;

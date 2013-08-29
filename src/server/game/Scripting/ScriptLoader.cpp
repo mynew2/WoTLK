@@ -1394,9 +1394,10 @@ void AddSC_CPWS_Transmogrification();
 void AddCustomScripts()
 {
 #ifdef SCRIPTS
-    /* This is where custom scripts should be added. */
+/* This is where custom scripts should be added. */
 //Reforging
-    AddSC_REFORGER_NPC();
+AddSC_REFORGER_NPC();
+
     AddSC_CPWS_Transmogrification();
 #endif
 }
