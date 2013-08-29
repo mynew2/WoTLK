@@ -1307,7 +1307,7 @@ class ObjectMgr
         InstanceTemplateContainer _instanceTemplateStore;
 /* Reforge Modification */		
 		ItemFakeStatContainer _itemFakeStatStore; 
-/* Reforge Modification */
+/* Reforge Modification */	
     private:
         void LoadScripts(ScriptsType type);
         void CheckScripts(ScriptsType type, std::set<int32>& ids);
