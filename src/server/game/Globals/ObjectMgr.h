@@ -1233,9 +1233,11 @@ class ObjectMgr
         void LoadFactionChangeReputations();
         void LoadFactionChangeSpells();
         void LoadFactionChangeTitles();
-
-    private:
-        // first free id for selected id type
+		
+/* reforge mod */ 
+    public:  //private
+/* reforge mod */
+	    // first free id for selected id type
         uint32 _auctionId;
         uint64 _equipmentSetGuid;
         uint32 _itemTextId;
@@ -1303,7 +1305,9 @@ class ObjectMgr
 
         PageTextContainer _pageTextStore;
         InstanceTemplateContainer _instanceTemplateStore;
-
+/* Reforge Modification */		
+		ItemFakeStatContainer _itemFakeStatStore; 
+/* Reforge Modification */
     private:
         void LoadScripts(ScriptsType type);
         void CheckScripts(ScriptsType type, std::set<int32>& ids);

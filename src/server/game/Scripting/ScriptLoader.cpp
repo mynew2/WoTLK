@@ -1386,13 +1386,17 @@ void AddBattlegroundScripts()
 
 #ifdef SCRIPTS
 /* This is where custom scripts' loading functions should be declared. */
-
+//Reforging
+void AddSC_REFORGER_NPC();
+void AddSC_CPWS_Transmogrification();
 #endif
 
 void AddCustomScripts()
 {
 #ifdef SCRIPTS
     /* This is where custom scripts should be added. */
-
+//Reforging
+    AddSC_REFORGER_NPC();
+    AddSC_CPWS_Transmogrification();
 #endif
 }
