@@ -7804,7 +7804,6 @@ void Player::_ApplyItemBonuses(ItemTemplate const* proto, uint8 slot, bool apply
     if (only_level_scale && !ssv)
         return;
 
-    for (uint8 i = 0; i < MAX_ITEM_PROTO_STATS; ++i)
 /* Reforge Modification */
     uint32 lowGUID = 0;
     if(Item* invItem = GetItemByPos(INVENTORY_SLOT_BAG_0, slot))
